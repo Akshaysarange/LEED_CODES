@@ -1,0 +1,14 @@
+Ek number diya hua hai. Tumhe us number ke saare digits ka sum return karna hai.
+Example: 1234 → 1+2+3+4 = 10
+
+Ek string diya hua hai. Tumhe batana hai usme kitne vowels (a, e, i, o, u) hai.
+Case-sensitive nahi hoga. ("A" bhi vowel hai)
+
+Ek integer number reverse karke return karo.
+Example: 507 → 705
+
+Ek array/list diya hua hai. Tumhe highest number return karna hai.
+Example: [10, 4, 23, 5] → 23
+
+Ek string diya hai, check karo kya vo palindrome hai ya nahi.
+Example: "madam" → Yes"
