@@ -1,5 +1,4 @@
-Ek number diya hua hai. Tumhe us number ke saare digits ka sum return karna hai.
-Example: 1234 → 1+2+3+4 = 10
+
 
 Ek string diya hua hai. Tumhe batana hai usme kitne vowels (a, e, i, o, u) hai.
 Case-sensitive nahi hoga. ("A" bhi vowel hai)
