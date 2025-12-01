@@ -1,3 +1,29 @@
 // sum of digits
 // Example: 1234 → 1+2+3+4 = 10
 
+//  function sod() {
+//         let num = Number(document.getElementById("num").value);
+//         let total = 0;
+//         while (num > 0) {
+//           digit = num % 10;
+//           total += digit;
+//           num = Math.floor(num / 10);
+//         }
+//         document.getElementById("result").value = total;
+//       }
+
+//Find the vowels (a, e, i, o, u) in given string
+
+function vowels() {
+  let str = document.getElementById("str").value;
+  let vwl = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
+  let result = 0;
+
+  for (let i = 0; i < str.length; i++) {
+    if (vwl.includes(str[i])) {
+      result++;
+    }
+  }
+
+  document.getElementById("result").value = result;
+}
