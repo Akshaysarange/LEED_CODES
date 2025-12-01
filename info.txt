@@ -1,4 +1,6 @@
-
+git add .
+git commit -m
+git push origin main
 
 Ek string diya hua hai. Tumhe batana hai usme kitne vowels (a, e, i, o, u) hai.
 Case-sensitive nahi hoga. ("A" bhi vowel hai)
