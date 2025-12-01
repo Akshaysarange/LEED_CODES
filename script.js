@@ -14,16 +14,16 @@
 
 //Find the vowels (a, e, i, o, u) in given string
 
-function vowels() {
-  let str = document.getElementById("str").value;
-  let vwl = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
-  let result = 0;
+// function vowels() {
+//   let str = document.getElementById("str").value;
+//   let vwl = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
+//   let result = 0;
 
-  for (let i = 0; i < str.length; i++) {
-    if (vwl.includes(str[i])) {
-      result++;
-    }
-  }
+//   for (let i = 0; i < str.length; i++) {
+//     if (vwl.includes(str[i])) {
+//       result++;
+//     }
+//   }
 
-  document.getElementById("result").value = result;
-}
+//   document.getElementById("result").value = result;
+// }

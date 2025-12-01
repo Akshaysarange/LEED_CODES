@@ -25,6 +25,7 @@ int main(){
 
 // Find the vowels (a, e, i, o, u) in given string
 
+/*
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
@@ -57,4 +58,5 @@ int main()
     printf("Total vowels %d", count);
 
     return 0;
-}
+}*/
+

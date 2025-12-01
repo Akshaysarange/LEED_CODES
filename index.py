@@ -14,7 +14,7 @@ def sum_of_digits():
 sum_of_digits()
 '''
 #Find the vowels (a, e, i, o, u) in given string
-
+'''
 text = input("Enter any thing you want: ")
 count = 0
 
@@ -25,3 +25,4 @@ for ch in text:
         count
     
 print("Total vowels:- ",count)
+'''
