@@ -61,20 +61,21 @@ int main()
 }*/
 
 // reverse the given number
-#include <stdio.h>
 
-int main(){
-    int num,rev = 0,digit;
+// #include <stdio.h>
 
-    printf("Enter number: ");
-    scanf("%d",&num);
+// int main(){
+//     int num,rev = 0,digit;
 
-    while(num > 0){
-        digit = num %10;
-        rev = rev * 10 + digit;
-        num /= 10;
-    }
+//     printf("Enter number: ");
+//     scanf("%d",&num);
 
-    printf("Reversed Number: %d",rev);
-    return 0;
-}
+//     while(num > 0){
+//         digit = num %10;
+//         rev = rev * 10 + digit;
+//         num /= 10;
+//     }
+
+//     printf("Reversed Number: %d",rev);
+//     return 0;
+// }
