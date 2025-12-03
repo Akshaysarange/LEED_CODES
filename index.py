@@ -29,6 +29,7 @@ print("Total vowels:- ",count)
 
 # reverse the given number
 
+'''
 num = int(input("Enter any number: "))
 rev = 0
 while num > 0:
@@ -37,3 +38,4 @@ while num > 0:
     num //= 10
 
 print("Reversed Number: ", rev)
+'''

@@ -29,15 +29,17 @@
 // }
 
 
-function reverse(){
-    let num = document.getElementById("num").value;
-    let rev = 0;
+// reverse the given number
 
-    while(num > 0){
-        digit = num % 10;
-        rev = rev * 10 + digit;
-        num = Math.floor(num / 10);
-    }
+// function reverse(){
+//     let num = document.getElementById("num").value;
+//     let rev = 0;
 
-    document.getElementById("result").value = rev;
-}
+//     while(num > 0){
+//         digit = num % 10;
+//         rev = rev * 10 + digit;
+//         num = Math.floor(num / 10);
+//     }
+
+//     document.getElementById("result").value = rev;
+// }
