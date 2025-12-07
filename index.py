@@ -42,14 +42,14 @@ print("Reversed Number: ", rev)
 
 # Return the highest number in givin list
 
-def high_num():
-    num = [10, 25, 55, 73, 123, 88, 45]
-    high = num[0]
+# def high_num():
+#     num = [10, 25, 55, 73, 123, 88, 45]
+#     high = num[0]
 
-    for i in num:
-        if i > high:
-            high = i
+#     for i in num:
+#         if i > high:
+#             high = i
     
-    print("Highest number is: ", high)
+#     print("Highest number is: ", high)
 
-high_num()
+# high_num()

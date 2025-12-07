@@ -83,24 +83,24 @@ int main()
 
 // Return the highest number in givin list
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int high_num(){
-    int num[] = {100, 255, 66, 45, 78, 20, 2};
-    int high = num[0];
+// int high_num(){
+//     int num[] = {100, 255, 66, 45, 78, 20, 2};
+//     int high = num[0];
 
-    for(int i = 1; i < 7; i++){
-        if(num[i] > high){
-            high = num[i];
-        }
+//     for(int i = 1; i < 7; i++){
+//         if(num[i] > high){
+//             high = num[i];
+//         }
     
-    printf("Highest number is: %d", high);
-    return high;
-    }
+//     printf("Highest number is: %d", high);
+//     return high;
+//     }
 
-}
+// }
 
-int main(){
-    high_num();
-    return 0;
-}
+// int main(){
+//     high_num();
+//     return 0;
+// }
