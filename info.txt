@@ -2,11 +2,5 @@ git add .
 git commit -m
 git push origin main
 
-Ek integer number reverse karke return karo.
-Example: 507 → 705
-
-Ek array/list diya hua hai. Tumhe highest number return karna hai.
-Example: [10, 4, 23, 5] → 23
-
 Ek string diya hai, check karo kya vo palindrome hai ya nahi.
 Example: "madam" → Yes"

@@ -43,3 +43,18 @@
 
 //     document.getElementById("result").value = rev;
 // }
+
+//Return the highest number in givin list
+
+function highest(){
+    let list = document.getElementById("list").value;
+    let arr = list.split(",").map(Number);
+    let high = arr[0];
+    for(let i = 1; i < arr.length; i++){
+        if(arr[i] > high){
+            high = arr[i];
+        }
+    }
+
+    document.getElementById("result").value = high;
+}
