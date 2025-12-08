@@ -53,3 +53,17 @@ print("Reversed Number: ", rev)
 #     print("Highest number is: ", high)
 
 # high_num()
+
+# check the given string having palindrome or not
+# eg,. "madam" → Yes"
+
+# def is_palindrome():
+#     text = input("Enter any string: ")
+#     rev = text[::-1]
+
+#     if text == rev:
+#         print("Yes, it is a palindrome")
+#     else:
+#         print("No, it is not a palindrome")
+
+# is_palindrome()

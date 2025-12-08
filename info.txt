@@ -1,6 +1,3 @@
 git add .
 git commit -m
 git push origin main
-
-Ek string diya hai, check karo kya vo palindrome hai ya nahi.
-Example: "madam" → Yes"

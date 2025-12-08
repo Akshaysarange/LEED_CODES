@@ -28,7 +28,6 @@
 //   document.getElementById("result").value = result;
 // }
 
-
 // reverse the given number
 
 // function reverse(){
@@ -57,4 +56,21 @@
 //     }
 
 //     document.getElementById("result").value = high;
+// }
+
+// check the given string having palindrome or not
+// eg,. "madam" → Yes"
+
+// function palindrome() {
+//   let str = document.getElementById("str").value;
+//   let rev = "";
+
+//   for (let i = str.length - 1; i >= 0; i--) {
+//     rev += str[i];
+//   }
+//   if (str === rev) {
+//     document.getElementById("result").value = "Yes";
+//   } else {
+//     document.getElementById("result").value = "No";
+//   }
 // }
