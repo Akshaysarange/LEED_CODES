@@ -143,22 +143,22 @@ int main()
 
 //Count digits in a number
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int digi_count(){
-    int num, count = 0;
+// int digi_count(){
+//     int num, count = 0;
 
-    printf("Enter any number: ");
-    scanf("%d", &num);
+//     printf("Enter any number: ");
+//     scanf("%d", &num);
 
-    while(num > 0){
-        num /= 10;
-        count++;
-    }
-    printf("Total digits: %d", count);
-}
+//     while(num > 0){
+//         num /= 10;
+//         count++;
+//     }
+//     printf("Total digits: %d", count);
+// }
 
-int main(){
-    digi_count();
-    return 0;
-}
+// int main(){
+//     digi_count();
+//     return 0;
+// }

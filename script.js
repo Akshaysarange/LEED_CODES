@@ -77,13 +77,13 @@
 
 //Count digits in a number
 
-function digit_count() {
-    let num = Number(document.getElementById("num").value);
-    let count = 0;
+// function digit_count() {
+//     let num = Number(document.getElementById("num").value);
+//     let count = 0;
 
-    while (num > 0) {
-        num = Math.floor(num / 10);
-        count++;
-    }
-    document.getElementById("result").value = count;
-}
+//     while (num > 0) {
+//         num = Math.floor(num / 10);
+//         count++;
+//     }
+//     document.getElementById("result").value = count;
+// }
