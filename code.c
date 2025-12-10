@@ -140,3 +140,25 @@ int main()
     
 //     return 0;
 // }
+
+//Count digits in a number
+
+#include <stdio.h>
+
+int digit_count(){
+    int num, count = 0;
+
+    printf("Enter any number: ");
+    scanf("%d", &num);
+
+    while(num > 0){
+        num /= 10;
+        count++;
+    }
+    printf("Total digits: %d", count);
+}
+
+int main(){
+    digit_count();
+    return 0;
+}
