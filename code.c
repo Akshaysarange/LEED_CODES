@@ -145,7 +145,7 @@ int main()
 
 #include <stdio.h>
 
-int digit_count(){
+int digi_count(){
     int num, count = 0;
 
     printf("Enter any number: ");
@@ -159,6 +159,6 @@ int digit_count(){
 }
 
 int main(){
-    digit_count();
+    digi_count();
     return 0;
 }
