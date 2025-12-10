@@ -1,3 +1,9 @@
 git add .
 git commit -m
 git push origin main
+
+Q6. Count digits in a number
+Q7. Count words in a sentence
+Q8. Sum of even numbers in array
+Q9. Find the first non-repeating character
+Q10. Check if two strings are anagrams
