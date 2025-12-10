@@ -67,3 +67,15 @@ print("Reversed Number: ", rev)
 #         print("No, it is not a palindrome")
 
 # is_palindrome()
+
+#Count digits in a number
+def digit_count():
+    num = int(input("Enter any number: "))
+    count = 0
+    while num > 0:
+        num //= 10
+        count += 1
+
+    print("Total digits: ", count)
+
+digit_count()
